@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , serif;
+    /* overflow-x: hidden; */
+}
+
+/* Variables */
+:root{
+    --main-color: #0D994E;
+    --main-black: ;
+    --black: #000;
+    --white: #fff;
+    --padding: 10px 20px;
+    /* padding: 10px 60px; */
+}
+
+/* Global Section */
+/* section {
+    height: 100vh;
+    width: 100%;
+} */
+
+.des {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background:
+        radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+        conic-gradient(green 50%, rgb(252, 251, 251) 0);
+}
+
+.dev {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background:
+        radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+        conic-gradient(green 75%, rgb(252, 251, 251) 0);
+}
+
+.des1 {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background:
+        radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+        conic-gradient(green 20%, rgb(252, 251, 251) 0);
+}
+
+.des2 {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    background:
+        radial-gradient(closest-side, rgb(255, 255, 255) 94%, transparent 80% 100%),
+        conic-gradient(green 50%, rgb(252, 251, 251) 0);
+
+}
+
+.chwani {
+    position: relative;
+    top: 45px;
+}
+
+.sign {
+    position: relative;
+    top: 55px;
+}
+
+
+.sabini {
+    position: relative;
+    top: 45px;
+}
+
+.develop {
+    position: relative;
+    top: 55px;
+}
+
+
+.gefao {
+    position: relative;
+    top: 45px;
+}
+
+.webd {
+    position: relative;
+    top: 55px;
+}
+
+
+
+.zachwe {
+    position: relative;
+    top: 45px;
+}
+
+.design {
+    position: relative;
+    top: 55px;
+}
+
+.sacco {
+    height: 200px;
+    width: 200px;
+    border-radius: 80%;
+    border: solid 15px;
+    display: flex;
+    border-color: #4ef973;
+    position: relative;
+    top: 140px;
+    right: -28px;
+    z-index: 10;
+
+}
+
+.pofo {
+    position: relative;
+    top: -2600px;
+    left: 50px;
+    height: 100px;
+}
+
+
+
+
+.btn-pri {
+    padding: var(--padding);
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.butts{
+    color: darkgreen;
+    background: lightgreen;
+    padding: var(--padding);
+    font-size: 1rem;
+}
+
+.hire-me{
+    padding: var(--padding);
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    color: var(--main-color);
+    font-size: 1rem;
+    z-index: 1;
+}
+
+#mores{
+    margin-bottom: 30px;
+}
+
+.explore{
+    padding: var(--padding);
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1rem;
+    border: 2px solid #000;
+    margin-left: 10px;
+}
+
+.icons{
+    position: fixed;
+    list-style: none;
+    z-index: 11;
+ }
+ 
+
+/* Navigation Styles */
+header{
+    height:5rem ;
+    width: 100%;
+    background-color:var(--white) ;
+    display: flex;
+}
+
+header nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+
+header nav div h1 span{
+    background: green;
+    color: var(--white);
+}
+
+header nav div ul{
+    gap: 3rem;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-side{
+    display: grid;
+    grid-template-columns: 2fr 3fr 4fr;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    border: 22px solid white;
+    border-radius: 50rem;
+    -webkit-transform: rotate(60deg);
+    position: relative; right: -100px; bottom: 250px;
+    height: 45rem;
+    width: 25rem;
+}
+
+.circle{
+    height: 20rem;
+    width: 20rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-transform: rotate(300deg);
+    position: relative; right: -50px; top: 125px;
+    border: 2rem solid white;
+    bottom: 200px;
+    right: -15px;
+}
+
+.circle img{
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2rem solid white;
+}
+
+.tops{
+    display: flex;
+}
+
+.text-side{
+    padding: 30px 80px;
+    margin-top: 30px;
+}
+
+.tupac{
+    display: flex;
+    margin-left: 30px;
+}
+
+.cench{
+    margin-left: 30px;
+    padding: 30px 80px;
+}
+
+.text-side2{
+    position: relative;
+    top: -400px;
+    right: -700px;
+}
+
+.semawe{
+    display: flex;
+    gap: 20px;
+    padding: 30px 80px;
+    justify-content: space-around;
+}
+
+.serv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.toppa{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.dis{
+    display: grid;
+        justify-content: center;
+        align-items: center;
+}
+
+.wuzus{
+    display: flex;
+    padding: 30px 80px;
+    gap: 20px;
+}
+
+.riswa1{
+    background: #0D994E;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.riswaai{
+    padding: 10px 30px;
+    /* box-shadow: ; */
+    border: 5px solid #000;
+}
+
+.dotswu{
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wuzus{
+    display: flex;
+    padding: 30px 80px;
+    justify-content: space-between;
+}
+
+.allz{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.alleyezonme{
+    display: flex;
+    gap: 20px;
+    padding: 30px 80px;
+    justify-content: space-around;
+}
+
+.mziza{
+    padding: 30px 80px;
+    border: 2px solid black;
+    height: 400px;
+    width: 340px;
+}
+
+.alo{
+    display: flex;
+    padding: 30px 80px;
+    gap: 20px;
+}
+
+progress::-moz-progress-bar{
+    background-color: var(--main-color);
+}
+
+progress{
+    height: 5px;
+    width: 230px;
+    border: none;
+    background-color: lightgreen;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 30px 80px;
+}
+
+.four {
+    width: 500px;
+    height: 40px;
+}
+
+.four1 {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: -550px;
+}
+
+.message {
+    height: 10rem;
+    width: 1200px;
+}
